@@ -42,18 +42,22 @@ SQL was used extensively to analyze and preprocess the data. Below are the key a
  Our dataset is clean and contains no duplicate entries. The warehouse block distribution reveals that Block F handles the highest volume of shipments (3,666), followed by Blocks D, A, C, and B, each with an equal share of 1,833 shipments.
 
 - **Shipment Modes and Customer Ratings**:
-- 
+ ![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/2.PNG)
+
 Shipment Modes: The majority of shipments were made via Ship, with significantly fewer shipments handled by Flight and Road.
 Customer Ratings: The ratings are fairly balanced across the five categories, indicating a mix of feedback from customers. This can help in understanding customer satisfaction trends and shipment performance
 
 ### **Performance Metrics**  
-- **On-Time vs Delayed Deliveries** and- **Average Discounts by Delivery Status**:  
+- **On-Time vs Delayed Deliveries** and- **Average Discounts by Delivery Status**:
+  
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/3.PNG)
 
 On-time Deliveries (0): There are 4,436 products delivered on time, with an average discount of 5. On-time deliveries have lower discounts.
 Late Deliveries (1): There are 6,563 products delivered late, with an average discount of 18. Late deliveries have higher discounts, likely to compensate customers for the delay.
 
 - **Customer Rating**:  
 
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/6.PNG)
 
 There is a slight positive correlation between customer ratings and the average cost of products. As the customer rating increases, the average cost of the product tends to increase slightly as well.This suggests that customers may be willing to pay a premium for higher-rated products. Businesses could potentially leverage this by strategically pricing their products based on perceived value and expected customer ratings.
 
@@ -61,17 +65,19 @@ Warehouse D has the highest average customer rating (3), while the other warehou
 
 ### **Warehouse & Shipping Delay Analysis **  
 
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/4.PNG)
+
 Warehouse Block B has the highest delay percentage, followed by blocks F and D. However, the differences in delay percentages between these blocks are relatively small.
 Flight is the shipment mode with the most delays, followed by "Ship" and "Road." Similar to the warehouse blocks, the differences in delay percentages between these shipment modes are not substantial.
 
 ### **Correlation Between Discounts Delays and weight **  
 
-
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/5.PNG)
 
 When orders are not reached on time (Reached_on_Time_Y_N = 0), the average discount offered is significantly lower (5) compared to orders that are delivered on time (18). Additionally, the average weight of products in delayed orders is higher (4168 gms) than those delivered on time (3272 gms).
 This suggests that lower discounts and heavier products may be associated with a higher likelihood of shipping delays.
 
-
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/7.PNG)
 
 Flight has the highest delay percentage at 60.15%, followed by Ship (59.76%) and Road (58.81%).
 While Flight has the highest delay percentage, the differences between the modes are relatively small.The analysis suggests that the choice of shipment mode may not have a significant impact on the likelihood of delays.
@@ -85,15 +91,13 @@ For the full list of queries, refer to the **SQL Code** section in this reposito
 
 ## **Power BI Dashboards**  
 
-Thank you for the clarification! Here’s a refined version based on your feedback, separating the two dashboards properly:
-
----
-
 ### E-commerce Dashboard Analysis
 
 This repository provides the analysis of two distinct Power BI dashboards created for the E-commerce platform. Each dashboard focuses on different aspects of the business, offering valuable insights into the performance of shipping operations and overall company performance.
 
 ### Dashboard 1: Overall E-commerce Performance
+
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/da-1.PNG)
 
 This dashboard serves as a comprehensive overview of the company’s operational performance, including key metrics such as revenue, customer satisfaction, product importance, and customer service interactions.
 
@@ -115,6 +119,8 @@ This dashboard serves as a comprehensive overview of the company’s operational
    This table shows the relationship between product cost and weight, providing insights into how these two factors are correlated and their impact on shipping and inventory management.
 
 ### Dashboard 2: Shipping Performance Analysis
+
+![Alt text](https://github.com/safae-ahb/E-COMMERCE-SHIPPING-DASHBOARD-/blob/e396c626e3cfac4256c39a3843592777fb01bbdc/dash-2.PNG)
 
 This dashboard focuses specifically on the performance of shipping operations, including the delivery status, shipping modes, product costs, and customer service calls. It is designed to help identify areas for improvement in logistics, delivery performance, and customer satisfaction.
 
