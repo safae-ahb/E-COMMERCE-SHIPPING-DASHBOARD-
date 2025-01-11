@@ -162,17 +162,7 @@ By analyzing the insights from both dashboards, we can identify actionable impro
 ## **Tools Used**  
 - **SQL**: Data querying and preprocessing.  
 - **Power BI**: Interactive dashboards and data visualization.  
-- **Dataset**: [Dataset Source](#) (Add a link to the dataset if available).  
-
----
-
-## **How to Use**  
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/yourusername/ecommerce-shipping-analysis.git  
-   ```  
-2. Import the SQL scripts for database exploration.  
-3. Open the Power BI file (.pbix) to explore the dashboards.  
+- **Dataset**:(https://www.kaggle.com/code/niteshyadav3103/eda-e-commerce-shipping-data/input).  
 
 ---
 
@@ -184,7 +174,7 @@ By analyzing the insights from both dashboards, we can identify actionable impro
 ---
 
 ## **License**  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
+This project is licensed under the MIT License. 
 
 ---
 
